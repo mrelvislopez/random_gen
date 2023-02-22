@@ -20,7 +20,7 @@ h3{
 
 .header {
     background-color: #FF3B6A ;
-    height: 30vh;
+    padding-bottom: 40px;
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -106,7 +106,7 @@ h3{
     
 
 .popup{
-    width: 60vw;
+    width: 65vw;
     max-width: 70vw;
     height: auto;
     position: absolute;
@@ -264,5 +264,5 @@ h3{
 
 @font-face {
     font-family: Bayors;
-    src: url(./images/Bayors-Demo.otf);
+    src: url(./assets/Bayors-Demo.otf);
   }
