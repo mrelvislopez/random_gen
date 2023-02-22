@@ -22,3 +22,4 @@ function closePopup() {
     popup.classList.remove('open-popup');
     popup.classList.add('close-popup');
 }
+console.log('hello peeps');
