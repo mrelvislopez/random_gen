@@ -31,7 +31,7 @@ h3{
 }
 
 .header img{
-    width: 70vw;
+    width: 250px;
     margin: 20px;
 }
 
@@ -106,7 +106,8 @@ h3{
     
 
 .popup{
-    width: 70vw;
+    width: 60vw;
+    max-width: 70vw;
     height: auto;
     position: absolute;
     background: #001C44;
@@ -121,7 +122,7 @@ h3{
     text-align: center;
     opacity: 0;
     transition: transform .4s, top 1s, opacity .4s, scale .5s;
-    padding: 50px 40px;
+    padding: 40px 40px;
     z-index: 2;
 }
 
