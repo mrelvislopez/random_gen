@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
     background-color: #FFEADD;
 }
@@ -106,7 +110,7 @@ h3{
     
 
 .popup{
-    width: 65vw;
+    width: 350px;
     max-width: 70vw;
     height: auto;
     position: absolute;
@@ -251,12 +255,13 @@ h3{
 }
 
 @keyframes scroll{
-    0%   {left: 500px;}
-    100% {left: -950px;}
+    0%   {left: -100%}
+    50% {left: 100%}
+    100% {left: -100%}
 }
 @-webkit-keyframes scroll{
-    0%   {left: 500px;}
-    100% {left: -950px;}
+    0%   {left: -500px;}
+    100% {left: -500px;}
 }
 
 
