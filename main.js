@@ -1,10 +1,14 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
 let quote = [
-    'The Dress Maker of Auschwitz by Lucy Adlington',
-    'The Spanish Love Deception by Elena Arma',
-    'The Deal by Elle Kennedy',
-    'Just Like Home by Sarah Gailey'
+    "The Dress Maker of Auschwitz by Lucy Adlington",
+    "The Spanish Love Deception by Elena Arma",
+    "The Deal by Elle Kennedy",
+    "Just Like Home by Sarah Gailey",
+    "A Witch's Guide to Fake Dating a Demon by Sarah Hawley",
+    "Icebreaker by Hannah Grace",
+    "Serpent & Dove by Shelby Mahurin"
+
 ];
 
 btn.addEventListener('click', function(){
