@@ -231,7 +231,7 @@ h3{
 .scrolling{
   white-space:nowrap;
   position: relative;
-  -webkit-animation: scroll 20s infinite linear;;
+  -webkit-animation: scroll 20s infinite linear;
   -moz-animation: scroll 20s infinite linear;
   -o-animation: scroll 20s infinite linear;
   animation: scroll 20s infinite linear;
