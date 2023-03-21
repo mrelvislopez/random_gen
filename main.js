@@ -26,4 +26,10 @@ function closePopup() {
     popup.classList.remove('open-popup');
     popup.classList.add('close-popup');
 }
-console.log('hello peeps');
+
+
+
+let books = document.getElementById('books');
+
+const newLocal = '<span></span>';
+books.innerHTML = quote.join(newLocal);
